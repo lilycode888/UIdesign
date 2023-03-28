@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- local styling -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/6ae300ecae.js" crossorigin="anonymous"></script>
+  <title>UI Design</title>
+</head>
+
+<body>
+  <div class="container neu">
+    <!-- slider start -->
+    <h2 class="title">Neumorphism</h2>
+    <div class="slider showFirst">
+      <div class="slides">
+        <!-- Slide 1 start -->
+        <div class="slide first showFirst" id="slide1">
+          <img src="./images/gradient-bg.jpg" alt="" />
+
+          <!-- form start -->
+          <div class="user-form">
+            <!-- input start -->
+            <div class="form-control">
+              <input type="text" placeholder="Enter username" />
+              <input type="text" placeholder="Enter password" />
+            </div>
+            <!-- input end -->
+            <div class="buttons">
+              <button class="btn btn-2">Log in</button>
+              <div class="icons">
+                <button>
+                  <i class="fa-solid fa-heart"></i>
+                </button>
+                <button>
+                  <i class="fa-solid fa-music"></i>
+                </button>
+                <button>
+                  <i class="fa-solid fa-user"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- form end -->
+        </div>
+        <!-- slide 1 end -->
+
+        <!-- slide 2 start -->
+        <div class="slide" id="slide2">
+          <!-- food1 start -->
+          <div class="food">
+            <div class="food-info">
+              <img src="./images/food1.png" alt="">
+              <h2>海鮮どん</h2>
+              <h3>Fresh Seafood Bowl</h3>
+            </div>
+            <div class="food-actions">
+              <button class="order-btn"><i class="fa-solid fa-cart-shopping"></i>Order Now</button>
+              <button class="heart-btn"><i class="fa-solid fa-heart"></i>Save to Favourite</button>
+              <button class="like-btn"><i class="fa-solid fa-thumbs-up"></i>Like it!</button>
+            </div>
+          </div>
+          <!-- food1 end -->
+          <!-- food2 start -->
+          <div class="food">
+            <div class="food-info">
+              <img src="./images/food2.png" alt="">
+              <h2>いくら寿司</h2>
+              <h3>Salmon Roe Sushi</h3>
+            </div>
+            <div class="food-actions">
+              <button class="btn order"><i class="fa-solid fa-cart-shopping"></i>Order Now</button>
+              <button class="btn heart"><i class="fa-solid fa-heart"></i>Save to Favourite</button>
+              <button class="btn like"><i class="fa-solid fa-thumbs-up"></i>Like it!</button>
+            </div>
+          </div>
+          <!-- food2 end -->
+        </div>
+        <!-- slide 2 end -->
+
+
+        <!-- slide 3 start -->
+        <div class="slide" id="slide3">
+          <div class="content">
+            <h1>People & Styles</h1>
+
+            <form class="multiple-choice">
+              <h3>What's your go to style?</h3>
+
+              <div class="radio">
+                <input type="radio" name="style">
+                <label>Smart causul</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="style">
+                <label>Vintage for life</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="style">
+                <label>Minimalism to the T</label>
+              </div>
+
+            </form>
+
+            <!-- scale bar start -->
+            <div class="scale">
+              <h3>How much does fashion matter? </h3>
+              <div class="scaleBar">
+                <div class="scale-filler"></div>
+                <input type="range" min="1" max="100" value="50" class="bar" id="myRange"
+                  oninput="rangeValue.innerText = this.value">
+                <p id="rangeValue">50%</p>
+              </div>
+            </div>
+            <!-- scale bar end -->
+
+            <!-- buttons start -->
+            <div class="buttons">
+              <button class="retro-btn">Read more</button>
+
+              <button class="retro-btn">View stylebook</button>
+            </div>
+            <!-- buttons end -->
+
+          </div>
+          <img src="./images/ppl-illustration.svg" alt="">
+        </div>
+        <!-- slide 3 end -->
+
+        <!-- slide 4 start -->
+        <div class="slide" id="slide4">
+
+          <div class="content">
+            <div class="image-container">
+              <img src="./images/vege.png" alt="">
+            </div>
+            <div class="actual-content">
+              <h1>Fresh!</h1>
+              <div class="actual-actual-content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos aliquam sunt officiis.
+                </p>
+                <button class="minimal-btn">Detail</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- slide 4 end -->
+
+        <!-- slide 5 start -->
+        <div class="slide" id="slide5">
+          <div class="card card1">
+            <div class="img-element">
+              <img src="./images/sun.png" alt="">
+              <div class="glow-sun"></div>
+            </div>
+            <div class="card-info">
+              <h1>Sun</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni veritatis unde doloribus illum quia et.
+              </p>
+            </div>
+          </div>
+          <div class="card card2">
+            <div class="img-element">
+              <img src="./images/moon.png" alt="">
+              <div class="glow-moon"></div>
+            </div>
+            <div class="card-info">
+              <h1>Moon</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis est sapiente sint hic nostrum.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- slide 5 end -->
+
+      </div>
+      <!-- nav start -->
+      <div class="nav">
+        <button class="nav-btn" id="navBtn1"><a href="#slide1"></a></button>
+        <button class="nav-btn" id="navBtn2"><a href="#slide1"></a></button>
+        <button class="nav-btn" id="navBtn3"><a href="#slide1"></a></button>
+        <button class="nav-btn" id="navBtn4"><a href="#slide1"></a></button>
+        <button class="nav-btn" id="navBtn5"><a href="#slide1"></a></button>
+      </div>
+      <!-- nav end -->
+    </div>
+    <!-- slider end -->
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
